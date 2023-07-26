@@ -1,0 +1,50 @@
+Bachelor of Arts (BA)
+Bachelor of Science (BS)
+Bachelor of Business Administration (BBA)
+Bachelor of Engineering (BE)
+Bachelor of Fine Arts (BFA)
+Bachelor of Education (BEd)
+Bachelor of Social Work (BSW)
+Bachelor of Computer Science (BCS)
+Bachelor of Nursing (BN)
+Bachelor of Architecture (BArch)
+Master of Arts (MA)
+Master of Science (MS)
+Master of Business Administration (MBA)
+Master of Engineering (ME)
+Master of Fine Arts (MFA)
+Master of Education (MEd)
+Master of Social Work (MSW)
+Master of Computer Science (MCS)
+Master of Nursing (MN)
+Master of Architecture (MArch)
+Doctor of Philosophy (PhD)
+Doctor of Medicine (MD)
+Doctor of Law (JD)
+Doctor of Dental Surgery (DDS)
+Doctor of Pharmacy (PharmD)
+Associate of Arts (AA)
+Associate of Science (AS)
+Associate of Applied Science (AAS)
+Associate of Business Administration (ABA)
+Associate of Engineering (AE)
+Associate of Fine Arts (AFA)
+Associate of Education (AEd)
+Associate of Social Work (ASW)
+Associate of Computer Science (ACS)
+Associate of Nursing (AN)
+Associate of Architecture (AArch)
+Certificate in Graphic Design
+Certificate in Web Development
+Certificate in Project Management
+Certificate in Digital Marketing
+Certificate in Human Resources Management
+Certificate in Accounting
+Certificate in Medical Assisting
+Certificate in Culinary Arts
+Certificate in Automotive Technology
+Diploma in Business Administration
+Diploma in Electrical Engineering
+Diploma in Fashion Design
+Diploma in Early Childhood Education
+Diploma in Hospitality Management

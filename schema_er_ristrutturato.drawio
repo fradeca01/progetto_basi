@@ -1,0 +1,436 @@
+<mxfile host="app.diagrams.net" modified="2023-07-26T13:36:56.581Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="2N_mtKYlWWQS8GjctuqI" version="21.6.5" type="device">
+  <diagram id="6RcjejaiYkViBM4j3bnB" name="Page-1">
+    <mxGraphModel dx="1039" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;endArrow=none;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-1" target="n6kUpRcJRCV0Vo0bWATQ-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-1" value="Competenza" style="whiteSpace=wrap;align=center;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="535" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=default;fontSize=12;endArrow=oval;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;exitX=0.929;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.523;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-2" target="n6kUpRcJRCV0Vo0bWATQ-120" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="320" />
+              <mxPoint x="320" y="340" />
+              <mxPoint x="400" y="340" />
+            </Array>
+            <mxPoint x="330" y="357.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;fontSize=12;endArrow=oval;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0;exitY=0.565;exitDx=0;exitDy=0;strokeColor=default;fontSize=12;endArrow=oval;endFill=0;exitPerimeter=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-2" target="n6kUpRcJRCV0Vo0bWATQ-118" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="380.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="159" y="290" />
+              <mxPoint x="68" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.706;exitY=0.999;exitDx=0;exitDy=0;strokeColor=default;fontSize=12;endArrow=oval;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="271" y="390" />
+              <mxPoint x="320" y="390" />
+            </Array>
+            <mxPoint x="271.02" y="319.93000000000006" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeColor=default;fontSize=12;endArrow=oval;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;entryX=0.143;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300.01" y="359.99" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="320" />
+            </Array>
+            <mxPoint x="296.5" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=default;fontSize=12;endArrow=oval;endFill=1;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="320" />
+            </Array>
+            <mxPoint x="330" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eYm-qPKcH9Y1Cwo014Lf-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=oval;endFill=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="236" y="320" as="sourcePoint" />
+            <mxPoint x="236" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eYm-qPKcH9Y1Cwo014Lf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;endArrow=oval;endFill=0;entryX=0.541;entryY=0.043;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="xJrivj8bRoik_0AxaRHs-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200.5" y="320" as="sourcePoint" />
+            <mxPoint x="198" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="198" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eYm-qPKcH9Y1Cwo014Lf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;endArrow=oval;endFill=0;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="350" />
+              <mxPoint x="150" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eYm-qPKcH9Y1Cwo014Lf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;endArrow=oval;endFill=0;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="345" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="320" />
+              <mxPoint x="120" y="320" />
+              <mxPoint x="120" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-2" value="Dipendente" style="whiteSpace=wrap;align=center;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="250" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1.001;exitY=0.1;exitDx=0;exitDy=0;strokeColor=default;endArrow=oval;endFill=1;exitPerimeter=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="199" />
+              <mxPoint x="970" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;endArrow=oval;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="215" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="990" y="215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1.003;exitY=0.88;exitDx=0;exitDy=0;strokeColor=default;endArrow=oval;endFill=0;exitPerimeter=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="230" />
+              <mxPoint x="970" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-3" value="Progetto" style="whiteSpace=wrap;align=center;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="195" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;endArrow=none;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-6" target="n6kUpRcJRCV0Vo0bWATQ-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeColor=default;fontSize=12;endArrow=oval;endFill=1;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="765" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeColor=default;fontSize=12;endArrow=oval;endFill=1;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="430" />
+              <mxPoint x="750" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;fontSize=12;endArrow=oval;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeColor=default;fontSize=12;endArrow=oval;endFill=0;entryX=0.5;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-6" target="n6kUpRcJRCV0Vo0bWATQ-104" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="815" y="450" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-6" value="Dipartimento" style="whiteSpace=wrap;align=center;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="390" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeColor=default;fontSize=12;endArrow=oval;endFill=1;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="765" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeColor=default;fontSize=12;endArrow=oval;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="815" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-7" value="Fornitore" style="whiteSpace=wrap;align=center;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="524" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;endArrow=none;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-8" target="n6kUpRcJRCV0Vo0bWATQ-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;endArrow=none;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-8" target="n6kUpRcJRCV0Vo0bWATQ-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="80" />
+              <mxPoint x="280" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-8" value="possiede" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;align=center;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;endArrow=none;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-9" target="n6kUpRcJRCV0Vo0bWATQ-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.143;entryDx=0;entryDy=0;strokeColor=default;endArrow=none;endFill=0;entryPerimeter=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-9" target="n6kUpRcJRCV0Vo0bWATQ-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="525" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-9" value="coinvolge" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;align=center;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="525" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;strokeColor=default;endArrow=none;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-11" target="n6kUpRcJRCV0Vo0bWATQ-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="305" />
+              <mxPoint x="510" y="290" />
+              <mxPoint x="330" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;endArrow=none;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-11" target="n6kUpRcJRCV0Vo0bWATQ-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-11" value="afferisce" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;align=center;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="525" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;endArrow=none;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-12" target="n6kUpRcJRCV0Vo0bWATQ-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;endArrow=none;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-12" target="n6kUpRcJRCV0Vo0bWATQ-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-12" value="fornisce" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;align=center;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="444" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;endArrow=none;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-13" target="n6kUpRcJRCV0Vo0bWATQ-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0;exitDx=0;exitDy=0;strokeColor=default;fontSize=12;endArrow=oval;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-13" value="ultimo acquisto" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;align=center;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="950" y="444" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-23" value="(1, N)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="140" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-25" value="(1, N)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="50" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-27" value="(0, 1)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="78" y="224" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-37" value="(0, N)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="475" y="235" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-38" value="(1, N)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="185" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-39" value="(1, 1)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="284" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-40" value="(1, N)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="270" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-41" value="(0, N)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="655" y="380" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-43" value="(0, N)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="655" y="513.0000000000001" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-44" value="(0, N)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="513.0000000000001" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-45" value="(0, 1)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="380" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-46" value="(0, N)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="125.00000000000011" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-52" value="codice aziendale" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacing=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="994" y="178" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-57" value="budget" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacing=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="992" y="205" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-64" value="durata in mesi" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;spacing=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="992" y="229" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-67" value="data" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="15" y="80" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-83" value="data" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1049" y="412" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-88" value="nome" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="584" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-89" value="indirizzo" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="780" y="584" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-102" value="nome" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="445" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-103" value="recapito" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="445" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-104" value="e-mail" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="811" y="445" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-117" value="data di nascita" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="15" y="254" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-118" value="qualifica" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="33" y="300" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-119" value="data&lt;br&gt;assunzione" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="411" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-120" value="nome" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="373.5" y="357" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-121" value="cognome" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="276" y="358" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-122" value="matricola" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="407" y="304" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-125" value="VINCOLI AZIENDALI:&lt;br&gt;- un dipendente coinvolge in un progetto almeno una competenza che possiede&lt;br&gt;- un fornitore per essere memorizzato o fornisce un dipartimento o è un ultimo acquisto" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="705" y="767" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n6kUpRcJRCV0Vo0bWATQ-126" value="ASSUNZIONI&lt;br&gt;- una sola qualifica per ogni dipendente&lt;br&gt;- non vengono memorizzati dipendenti senza competenze&lt;br&gt;- ogni dipartimento ha almeno un dipendente&lt;br&gt;- non ci sono 2 fornitori con lo stesso nome&lt;br&gt;- esistono fornitori che forniscono ma non sono l&#39;ultimo acquisto&lt;br&gt;- esistono un fornitore ultimo acquisto che non fornisce" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="15" y="717" width="330" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4aaBTefuGUrqz8401GPk-9" value="" style="ellipse;whiteSpace=wrap;aspect=fixed;glass=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBwrzGvgYWuThcq4yIx-1" value="numero di afferenti" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="807" y="305" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBwrzGvgYWuThcq4yIx-4" value="" style="ellipse;whiteSpace=wrap;align=center;dashed=1;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="863" y="330" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBwrzGvgYWuThcq4yIx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="n6kUpRcJRCV0Vo0bWATQ-6" target="GkBwrzGvgYWuThcq4yIx-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="390" as="sourcePoint" />
+            <mxPoint x="870" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GkBwrzGvgYWuThcq4yIx-6" value="REGOLE DI DERIVAZIONE:&lt;br&gt;- il numero di dipendenti coinbolti&amp;nbsp;&amp;nbsp;è derivato dal&lt;br&gt;conteggio del numero dei&lt;br&gt;dipendenti che vi sono coinvolti" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="737" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBwrzGvgYWuThcq4yIx-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;endArrow=none;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="GkBwrzGvgYWuThcq4yIx-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="140" />
+              <mxPoint x="230" y="250" />
+            </Array>
+            <mxPoint x="290" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GkBwrzGvgYWuThcq4yIx-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;endArrow=none;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="GkBwrzGvgYWuThcq4yIx-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="68" y="230" />
+              <mxPoint x="170" y="230" />
+              <mxPoint x="170" y="245" />
+            </Array>
+            <mxPoint x="170" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GkBwrzGvgYWuThcq4yIx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0;exitY=0;exitDx=0;exitDy=0;strokeColor=default;fontSize=12;endArrow=oval;endFill=0;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" source="GkBwrzGvgYWuThcq4yIx-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GkBwrzGvgYWuThcq4yIx-10" value="matrimonio" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;align=center;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="8" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBwrzGvgYWuThcq4yIx-11" value="(0, 1)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="140" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBwrzGvgYWuThcq4yIx-12" value="coniugato" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="137" y="110" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBwrzGvgYWuThcq4yIx-13" value="coniuge" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="87" y="205" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xJrivj8bRoik_0AxaRHs-1" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" parent="1" target="xJrivj8bRoik_0AxaRHs-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="635" y="70" as="sourcePoint" />
+            <mxPoint x="660" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJrivj8bRoik_0AxaRHs-2" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="650" y="60" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xJrivj8bRoik_0AxaRHs-7" value="nome" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="655" y="55" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xJrivj8bRoik_0AxaRHs-19" value="classe &lt;br&gt;dottorato" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="400" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xJrivj8bRoik_0AxaRHs-21" value="" style="ellipse;whiteSpace=wrap;align=center;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="194" y="397.5" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xJrivj8bRoik_0AxaRHs-23" value="classe &lt;br&gt;laurea" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="62" y="345.5" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xJrivj8bRoik_0AxaRHs-28" value="data &lt;br&gt;laurea" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="122" y="379" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xJrivj8bRoik_0AxaRHs-43" value="data &lt;br&gt;dottorato" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="202" y="358.5" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xJrivj8bRoik_0AxaRHs-63" value="" style="ellipse;whiteSpace=wrap;align=center;fontFamily=Computer Modern;fontSource=http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="86" y="341" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xJrivj8bRoik_0AxaRHs-66" value="" style="ellipse;whiteSpace=wrap;align=center;fontFamily=Computer Modern;fontSource=http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="146" y="376" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xJrivj8bRoik_0AxaRHs-67" value="" style="ellipse;whiteSpace=wrap;align=center;fontFamily=Computer Modern;fontSource=http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf;html=1;" parent="1" vertex="1">
+          <mxGeometry x="232" y="356.5" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="eYm-qPKcH9Y1Cwo014Lf-10" value="(0, 1)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="109" y="323" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eYm-qPKcH9Y1Cwo014Lf-11" value="(0, 1)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="112" y="352" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eYm-qPKcH9Y1Cwo014Lf-12" value="(0, 1)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="160" y="369" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eYm-qPKcH9Y1Cwo014Lf-13" value="(0, 1)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Computer Modern;fontSource=http%3A%2F%2Fmirrors.ctan.org%2Ffonts%2Fcm-unicode%2Ffonts%2Fotf%2Fcmunss.otf;html=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="198" y="334" width="50" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
