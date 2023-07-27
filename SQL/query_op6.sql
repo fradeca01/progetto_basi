@@ -1,5 +1,5 @@
 CREATE OR REPLACE FUNCTION grandiFornitori(n_min_dip INT)
-RETURNS TABLE (codice_fornitore VARCHAR(25), numero_dipartimenti INT) LANGUAGE plpgsql AS
+RETURNS TABLE (codice_fornitore VARCHAR(100), numero_dipartimenti INT) LANGUAGE plpgsql AS
 $$
 BEGIN
 

@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION numeroDipendentiAfferenti(dipartimento VARCHAR(25)) 
+CREATE OR REPLACE FUNCTION numeroDipendentiAfferenti(dipartimento VARCHAR(100)) 
 RETURNS INT LANGUAGE plpgsql AS 
 $$ 
 DECLARE numDipe INT; 
