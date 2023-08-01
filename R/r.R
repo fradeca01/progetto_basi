@@ -3,7 +3,7 @@ require("tidyverse")
 require("stringr")
 require("dplyr")
 require("ggplot2")
-
+require("lubridate")
 
 
 drv <- dbDriver("PostgreSQL")
@@ -11,18 +11,12 @@ con <- dbConnect(drv, dbname = "progetto_basi",
                  host = "localhost", port = 5432,
                  user = "postgres", password = "postgres")
 
-#dipendenti = dbGetQuery(con, "select * from dipartimento")
-
-#print(dipendenti)
-
-# La correlazione tra i dipendenti laureati con o senza dottorato e il numero di competenze
-# possedute da tali dipendenti.
+# 1
 
 dipendenti = dbGetQuery(con, "select dipendente.matricola, classe_laurea, classe_dottorato, count(possiede.competenza) as numero_competenze
 from dipendente inner join possiede on dipendente.matricola = possiede.matricola 
 group by dipendente.matricola limit 100;"
 )
-
 dipendenti = tibble(dipendenti)
 
 
@@ -31,18 +25,70 @@ dipendenti %>%
     mutate(classe_laurea = replace(classe_laurea, classe_laurea == "", "non_laureato")) %>%
     mutate(classe_laurea = replace(classe_laurea, classe_dottorato != "", "dottorato") ) %>%
     group_by(classe_laurea) %>%
-    summarise(num_medio = sum(numero_competenze) / n()) %>%
-    ggplot(aes(x = classe_laurea, y = num_medio)) + 
-    geom_bar(stat = "identity")
+    summarise(num_medio_competenze = sum(numero_competenze) / n()) %>%
+    ggplot(aes(x = classe_laurea, y = num_medio_competenze, fill = classe_laurea)) + 
+    geom_col(show.legend = FALSE) + 
+    ggtitle("Numero medio competenze per dipendente") +
+    labs(x = "Classe Laurea", y = "Numero medio competenze") + 
+    theme_bw()
 
+
+
+#2
 
 dipartimenti = dbGetQuery(con, "select nome, numero_afferenti
 from dipartimento order by numero_afferenti desc limit 10;")
 
 dipartimenti %>%
-    ggplot(aes(x = nome, y = numero_afferenti)) +
-    geom_bar(stat = "identity")
+    ggplot(aes(x = reorder(nome, -numero_afferenti), y = numero_afferenti)) +
+    geom_col(show.legend = FALSE, fill="aquamarine3") + 
+    labs(title = "Numero afferenti per dipartimento", x = "Dipartimento", y = "Numero Afferenti")
 
 
+#3
+
+fornitori = dbGetQuery(con, "select fornitore, count(*) as num from fornisce group by fornitore order by num desc limit 10;")
+
+fornitori = tibble(fornitori)
+
+fornitori %>%
+    ggplot(aes(x = reorder(fornitore, -num), y = num)) +
+    geom_bar(stat = "identity", fill = "aquamarine3") + 
+    labs(title = "Numero dipartimenti per fornitore", x = "Fornitore", y = "Numero Dipartimenti") + 
+    theme_bw() + 
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+
+#4
+
+dipendenti_età = dbGetQuery(con, "select dipendente.matricola, progetto, data_di_nascita 
+from coinvolge inner join dipendente on dipendente.matricola = coinvolge.matricola;
+")
+
+dipendenti_età = tibble(dipendenti_età)
+
+
+birth_date <- as.Date("1973-01-01")
+now = Sys.Date()
+
+dipendenti_età %>%
+    mutate(age = trunc((data_di_nascita %--% now) /years(1))) %>%
+    group_by(progetto) %>%
+    summarise(eta_media = mean(age)) %>%
+    arrange(desc(eta_media)) %>%
+    top_n(10) %>%
+    mutate(progetto = as.character(progetto)) %>%
+    ggplot(aes(x = reorder(progetto, -eta_media), y = eta_media)) + 
+    geom_col(fill="red") + 
+    labs(title = "Età media per progetto", x = "Progetto", y = "Età media") + 
+    theme_bw()
+
+
+
+#5
+
+num_budget = dbGetQuery("select progetto, count(*), budget 
+from coinvolge inner join progetto on coinvolge.progetto = progetto.codice_aziendale
+ group by progetto, budget;")
 
 
