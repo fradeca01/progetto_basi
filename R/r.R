@@ -15,7 +15,7 @@ con <- dbConnect(drv, dbname = "progetto_basi",
 
 dipendenti = dbGetQuery(con, "select dipendente.matricola, classe_laurea, classe_dottorato, count(possiede.competenza) as numero_competenze
 from dipendente inner join possiede on dipendente.matricola = possiede.matricola 
-group by dipendente.matricola limit 100;"
+group by dipendente.matricola;"
 )
 dipendenti = tibble(dipendenti)
 
@@ -37,7 +37,7 @@ dipendenti %>%
 #2
 
 dipartimenti = dbGetQuery(con, "select nome, numero_afferenti
-from dipartimento order by numero_afferenti desc limit 10;")
+from dipartimento order by numero_afferenti desc limit 13;")
 
 dipartimenti %>%
     ggplot(aes(x = reorder(nome, -numero_afferenti), y = numero_afferenti)) +
@@ -47,7 +47,7 @@ dipartimenti %>%
 
 #3
 
-fornitori = dbGetQuery(con, "select fornitore, count(*) as num from fornisce group by fornitore order by num desc limit 10;")
+fornitori = dbGetQuery(con, "select fornitore, count(*) as num from fornisce group by fornitore order by num desc limit 15;")
 
 fornitori = tibble(fornitori)
 
@@ -83,6 +83,11 @@ collocate = function(budget) {
 
 dipendenti_età %>%
     mutate(age = trunc((data_di_nascita %--% now) /years(1))) %>%
+    ggplot() + 
+    geom_histogram(aes(x = age))
+
+dipendenti_età %>%
+    mutate(age = trunc((data_di_nascita %--% now) /years(1))) %>%
     mutate(fascia_progetto = collocate(budget)) %>%
     group_by(fascia_progetto) %>%
     summarise(eta_media = mean(age)) %>%
@@ -107,7 +112,7 @@ num_budget %>%
     ggplot(aes(x = num_dip, y = budget)) +
     geom_point()
 
-model = lm(data = num_budget, num_dip ~ budget)
+model = lm(data = num_budget, budget ~ num_dip)
 
 correlation = cor(num_budget$num_dip, num_budget$budget)
 
@@ -115,5 +120,5 @@ num_budget = add_predictions(num_budget, model)
 
 num_budget %>%
     ggplot() +
-    geom_point(aes(x = num_dip, y = budget)) + 
-    geom_line(aes(x = num_dip, y = pred))
+    geom_point(aes(x = num_dip, y = budget))  + 
+    geom_line(aes(x = num_dip, y= pred))

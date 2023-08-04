@@ -1,0 +1,99 @@
+,recapito,nome,email,ultimo_acquisto,data_ultimo_acquisto
+0,432502846, Administration,administration@company.com,Basso SPA,2021-08-27
+1,432592278, Artificial Intelligence,artificialintelligence@company.com,Camilleri-Federico e figli,2021-04-16
+2,432894736, Branding and Advertising,brandingandadvertising@company.com,Borgia-Cuda s.r.l.,2022-10-23
+3,432987800, Brand Management,brandmanagement@company.com,Balotelli e figli,2022-05-25
+4,432523356, Business Analytics,businessanalytics@company.com,Opizzi SPA,2022-10-16
+5,432421249, Business Development,businessdevelopment@company.com,Foletti Group,2021-05-15
+6,432414061, Business Intelligence,businessintelligence@company.com,Bernini s.r.l.,2022-08-05
+7,432163725, Change Management,changemanagement@company.com,"Gozzano, Garrone e Monduzzi e figli",2021-10-10
+8,432199898, Claims and Insurance,claimsandinsurance@company.com,Gussoni Group,2023-01-28
+9,432257879, Cloud Services,cloudservices@company.com,Einaudi-Morosini SPA,2022-08-27
+10,432302288, Communications,communications@company.com,Carli e figli,2021-03-19
+11,432928527, Compensation and Benefits,compensationandbenefits@company.com,Moretti-Bellò Group,2022-10-09
+12,432263536, Competitive Intelligence,competitiveintelligence@company.com,"Sagnelli, Filippini e Musatti Group",2022-12-09
+13,432205581, Compliance,compliance@company.com,Carriera s.r.l.,2021-08-18
+14,432779343, Content Creation,contentcreation@company.com,"Pugliese, Cuzzocrea e Lombardi SPA",2023-07-28
+15,432161266, Corporate Communications,corporatecommunications@company.com,Ossani-Brenna SPA,2021-01-07
+16,432555457, Corporate Development,corporatedevelopment@company.com,"Taliani, Badoer e Gentilini s.r.l.",2022-06-01
+17,432531001, Corporate Governance,corporategovernance@company.com,Canevascini-Bonatti SPA,2021-04-27
+18,432595478, Corporate Social Responsibility,corporatesocialresponsibility@company.com,"Leblanc, Pizzamano e Morucci SPA",2023-01-03
+19,432869924, Corporate Strategy,corporatestrategy@company.com,"Toscani, Faggiani e Scamarcio SPA",2023-06-21
+20,432203253, Corporate Training,corporatetraining@company.com,Barracco-Montesano s.r.l.,2021-03-17
+21,432161613, Customer Service,customerservice@company.com,Luciani SPA,2021-06-12
+22,432485136, Customer Success,customersuccess@company.com,Vecoli Group,2022-03-24
+23,432203212, Cybersecurity,cybersecurity@company.com,Casarin-Missoni Group,2021-07-19
+24,432638631, Data Analytics,dataanalytics@company.com,Lupo s.r.l.,2023-06-09
+25,432729893, Data Management,datamanagement@company.com,Pace Group,2022-11-17
+26,432724621, Data Science,datascience@company.com,"Bresciani, Tasca e Liverotti SPA",2022-03-20
+27,432170007, Design,design@company.com,"Fo, Antonacci e Cipolla e figli",2021-02-13
+28,432723572, Digital Marketing,digitalmarketing@company.com,"Garrone, Battaglia e Scarponi e figli",2022-10-08
+29,432555910, E-commerce,e-commerce@company.com,Satta e figli,2021-06-28
+30,432394466, Employee Relations,employeerelations@company.com,"Camiscione, Merisi e Borromeo SPA",2021-01-07
+31,432398359, Engineering Design,engineeringdesign@company.com,"Montanelli, Ricci e Udinese SPA",2023-01-22
+32,432327965, Event Management,eventmanagement@company.com,"Renault, Munari e Ciani e figli",2021-01-16
+33,432228310, Facilities Management,facilitiesmanagement@company.com,Disdero-Trussardi Group,2022-03-20
+34,432479022, Facilities Planning,facilitiesplanning@company.com,Tebaldi-Verri e figli,2022-01-26
+35,432872468, Finance,finance@company.com,"Abate, Angeli e Giammusso s.r.l.",2021-01-23
+36,432429931, Financial Planning and Analysis,financialplanningandanalysis@company.com,Galuppi-Modugno SPA,2021-12-27
+37,432281764, Graphic Design,graphicdesign@company.com,"Pertini, Giannone e Vento SPA",2022-08-29
+38,432305720, Health and Safety,healthandsafety@company.com,Ricolfi-Bignardi e figli,2022-08-17
+39,432229207, Human Resources,humanresources@company.com,"Trevisan, Molesini e Antonello Group",2021-07-18
+40,432696395, Incident Response,incidentresponse@company.com,"Cavanna, Carducci e Carpaccio Group",2022-02-19
+41,432740053, Information Security,informationsecurity@company.com,Morpurgo-Zoppetti e figli,2021-04-19
+42,432643825, Innovation,innovation@company.com,Sforza-Bova SPA,2022-07-05
+43,432514785, Intellectual Property,intellectualproperty@company.com,Ubaldi-Ricci e figli,2022-06-10
+44,432343229, Internal Audit,internalaudit@company.com,Udinesi-Ginese SPA,2022-02-04
+45,432943182, Internal Communications,internalcommunications@company.com,"Tamburini, Sordi e Sobrero s.r.l.",2022-11-25
+46,432937793, International Business,internationalbusiness@company.com,Pizzo-Saffi s.r.l.,2022-10-22
+47,432431697, Inventory Management,inventorymanagement@company.com,Zichichi SPA,2022-10-30
+48,432135286, IT,it@company.com,Borgia e figli,2023-06-23
+49,432639712, Learning and Development,learninganddevelopment@company.com,"Germano, Volta e Cimini SPA",2023-04-23
+50,432982030, Legal,legal@company.com,Tomasini s.r.l.,2021-11-22
+51,432327605, Logistics,logistics@company.com,Bettoni-Carosone e figli,2021-07-02
+52,432588771, Manufacturing,manufacturing@company.com,"Gozzano, Garrone e Monduzzi e figli",2022-08-05
+53,432957327, Manufacturing Engineering,manufacturingengineering@company.com,"Germano, Volta e Cimini SPA",2023-06-02
+54,432535833, Market Expansion,marketexpansion@company.com,Onisto SPA,2023-04-13
+55,432505499, Market Forecasting,marketforecasting@company.com,"Panzera, Manunta e Scarpa Group",2022-01-21
+56,432852563, Marketing,marketing@company.com,Cardano e figli,2022-12-04
+57,432464052, Market Research,marketresearch@company.com,"Caccioppoli, Soprano e Mazzini s.r.l.",2023-07-26
+58,432782055, Media Relations,mediarelations@company.com,Stefanelli s.r.l.,2021-10-09
+59,432485567, Mobile App Development,mobileappdevelopment@company.com,Tebaldi-Verri e figli,2023-06-11
+60,432764609, Network Operations,networkoperations@company.com,Torricelli-Scarponi SPA,2021-01-12
+61,432332553, Online Community Management,onlinecommunitymanagement@company.com,Crispi-Faugno SPA,2021-05-14
+62,432207236, Operations,operations@company.com,Cicala Group,2021-03-26
+63,432543452, Outsourcing,outsourcing@company.com,Gussoni-Raurica Group,2021-09-13
+64,432144137, Performance Management,performancemanagement@company.com,Pertile s.r.l.,2021-03-02
+65,432605903, Procurement,procurement@company.com,Mastandrea-Dalla e figli,2022-05-27
+66,432831063, Product Development,productdevelopment@company.com,"Fabrizi, Porcellato e Berrè Group",2022-06-25
+67,432720880, Product Marketing,productmarketing@company.com,Scaramucci-Pizzo SPA,2022-12-09
+68,432171202, Product Support,productsupport@company.com,"Cutrufo, Gelli e Biagiotti s.r.l.",2023-01-14
+69,432466078, Project Management,projectmanagement@company.com,"Renault, Munari e Ciani e figli",2022-09-15
+70,432551532, Public Relations,publicrelations@company.com,Ortolani-Antonetti s.r.l.,2021-06-07
+71,432100363, Quality Assurance,qualityassurance@company.com,"Gagliano, Catenazzi e Vespa SPA",2021-10-10
+72,432982887, Regulatory Affairs,regulatoryaffairs@company.com,"Simeoni, Papetti e Boccherini Group",2021-12-10
+73,432510766, Regulatory Compliance,regulatorycompliance@company.com,"Montanelli, Ricci e Udinese SPA",2021-11-22
+74,432394726, Research and Development,researchanddevelopment@company.com,"Franceschi, Pagliaro e Botticelli e figli",2022-03-27
+75,432104476, Research and Innovation,researchandinnovation@company.com,Scandone-Alboni Group,2021-11-27
+76,432584604, Risk Management,riskmanagement@company.com,Tuzzolino s.r.l.,2021-08-24
+77,432331303, Sales,sales@company.com,"Tornatore, Tacchini e Angeli s.r.l.",2022-08-25
+78,432429574, Sales Enablement,salesenablement@company.com,"Sibilia, Trobbiani e Argan Group",2021-03-27
+79,432479651, Sales Operations,salesoperations@company.com,Torricelli-Scarponi SPA,2021-06-22
+80,432353556, Social Media Management,socialmediamanagement@company.com,"Falier, Ciani e Pizzamano e figli",2021-05-14
+81,432569093, Software Engineering,softwareengineering@company.com,"Nonis, Rismondo e Castiglione SPA",2021-05-07
+82,432671252, Software Testing,softwaretesting@company.com,"Fo, Scarpa e Turchetta s.r.l.",2023-03-30
+83,432998418, Strategic Partnerships,strategicpartnerships@company.com,Sgalambro SPA,2023-04-03
+84,432628556, Strategic Planning,strategicplanning@company.com,"Blasi, Panzera e Maderno e figli",2023-03-23
+85,432972082, Supplier Relations,supplierrelations@company.com,Casale Group,2022-01-03
+86,432327202, Supply Chain,supplychain@company.com,Mocenigo-Carosone SPA,2021-08-11
+87,432192179, Sustainability,sustainability@company.com,"Mimun, Piane e Cheda SPA",2022-11-29
+88,432596497, Talent Acquisition,talentacquisition@company.com,Garrone Group,2023-07-13
+89,432154027, Talent Management,talentmanagement@company.com,"Garozzo, Scaduto e Santoro s.r.l.",2022-02-27
+90,432545760, Tax,tax@company.com,Biagi-Galilei Group,2021-12-26
+91,432777402, Training and Development,traininganddevelopment@company.com,Vattimo SPA,2021-04-10
+92,432877576, Training and Education,trainingandeducation@company.com,Ruggieri SPA,2021-07-12
+93,432514909, User Experience,userexperience@company.com,Tuzzolino s.r.l.,2021-07-08
+94,432500979, Vendor Management,vendormanagement@company.com,Pavanello-Marenzio Group,2022-06-14
+95,432429964, Warehouse and Distribution,warehouseanddistribution@company.com,"Gagliano, Catenazzi e Vespa SPA",2023-02-20
+96,432929092, Web Development,webdevelopment@company.com,"Cardano, Olivetti e Sobrero e figli",2022-06-26
+97,432973331, Workplace Culture,workplaceculture@company.com,Fornaciari s.r.l.,2022-02-09

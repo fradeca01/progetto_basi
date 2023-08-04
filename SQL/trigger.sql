@@ -107,18 +107,6 @@ for each row
 execute procedure check_dipartimento();
 
 
-
-
-
-
-
-
-
-create trigger check_progetto
-before update or delete on dipendente
-for each row
-execute procedure check_progetto();
-
 create or replace function check_progetto()
 returns trigger language plpgsql as $$
     declare
@@ -145,6 +133,18 @@ returns trigger language plpgsql as $$
 
 $$;
 
+
+
+
+
+
+
+
+
+create trigger check_progetto
+before update or delete on dipendente
+for each row
+execute procedure check_progetto();
 
 
 
