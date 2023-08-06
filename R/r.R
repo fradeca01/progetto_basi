@@ -19,19 +19,21 @@ group by dipendente.matricola;"
 )
 dipendenti = tibble(dipendenti)
 
-
-dipendenti %>% 
+dipendenti = dipendenti %>% 
     mutate(classe_laurea = replace(classe_laurea, classe_laurea != "" & classe_dottorato == "", "laureato e non dottorato") ) %>%
     mutate(classe_laurea = replace(classe_laurea, classe_laurea == "", "non_laureato")) %>%
     mutate(classe_laurea = replace(classe_laurea, classe_dottorato != "", "dottorato") ) %>%
     group_by(classe_laurea) %>%
-    summarise(num_medio_competenze = sum(numero_competenze) / n()) %>%
-    ggplot(aes(x = classe_laurea, y = num_medio_competenze, fill = classe_laurea)) + 
+    summarise(num_medio_competenze = sum(numero_competenze) / n())
+
+dipendenti %>%
+    ggplot(aes(x = reorder(classe_laurea, desc(classe_laurea)), y = num_medio_competenze, fill = classe_laurea)) + 
     geom_col(show.legend = FALSE) + 
     ggtitle("Numero medio competenze per dipendente") +
     labs(x = "Classe Laurea", y = "Numero medio competenze") + 
     theme_bw()
 
+ggsave("progetto_basi/R/plot1.png")
 
 
 #2
@@ -45,6 +47,9 @@ dipartimenti %>%
     labs(title = "Numero afferenti per dipartimento", x = "Dipartimento", y = "Numero Afferenti")
 
 
+ggsave("progetto_basi/R/plot2.png")
+
+
 #3
 
 fornitori = dbGetQuery(con, "select fornitore, count(*) as num from fornisce group by fornitore order by num desc limit 15;")
@@ -53,50 +58,53 @@ fornitori = tibble(fornitori)
 
 fornitori %>%
     ggplot(aes(x = reorder(fornitore, -num), y = num)) +
-    geom_bar(stat = "identity", fill = "aquamarine3") + 
+    geom_bar(stat = "identity", fill = "pink") + 
     labs(title = "Numero dipartimenti per fornitore", x = "Fornitore", y = "Numero Dipartimenti") + 
     theme_bw() + 
     theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 
 
-#4
-
-dipendenti_età = dbGetQuery(con, "select dipendente.matricola, progetto, data_di_nascita, progetto.budget 
-from coinvolge inner join dipendente on dipendente.matricola = coinvolge.matricola inner join progetto on progetto.codice_aziendale = coinvolge.progetto;
-")
-
-dipendenti_età = tibble(dipendenti_età)
+ggsave("progetto_basi/R/plot3.png")
 
 
-birth_date <- as.Date("1973-01-01")
-now = Sys.Date()
+# #4
 
-collocate = function(budget) {
-    case_when(
-        budget < 10000 ~ 1,
-        budget < 20000 ~ 2,
-        budget < 30000 ~ 3,
-        budget < 40000 ~ 4,
-        TRUE ~ 5
-    )
-}
+# dipendenti_età = dbGetQuery(con, "select dipendente.matricola, progetto, data_di_nascita, progetto.budget 
+# from coinvolge inner join dipendente on dipendente.matricola = coinvolge.matricola inner join progetto on progetto.codice_aziendale = coinvolge.progetto;
+# ")
 
-dipendenti_età %>%
-    mutate(age = trunc((data_di_nascita %--% now) /years(1))) %>%
-    ggplot() + 
-    geom_histogram(aes(x = age))
+# dipendenti_età = tibble(dipendenti_età)
 
-dipendenti_età %>%
-    mutate(age = trunc((data_di_nascita %--% now) /years(1))) %>%
-    mutate(fascia_progetto = collocate(budget)) %>%
-    group_by(fascia_progetto) %>%
-    summarise(eta_media = mean(age)) %>%
-    arrange(desc(eta_media)) %>%
-    top_n(10) %>%
-    ggplot(aes(x = reorder(fascia_progetto, fascia_progetto), y = eta_media)) + 
-    geom_col(fill="red") + 
-    labs(title = "Età media per fascia progetto", x = "Fascia Progetto", y = "Età media") + 
-    theme_bw()
+
+# birth_date <- as.Date("1973-01-01")
+# now = Sys.Date()
+
+# collocate = function(budget) {
+#     case_when(
+#         budget < 10000 ~ 1,
+#         budget < 20000 ~ 2,
+#         budget < 30000 ~ 3,
+#         budget < 40000 ~ 4,
+#         TRUE ~ 5
+#     )
+# }
+
+# dipendenti_età %>%
+#     mutate(age = trunc((data_di_nascita %--% now) /years(1))) %>%
+#     ggplot() + 
+#     geom_histogram(aes(x = age))
+
+# dipendenti_età %>%
+#     mutate(age = trunc((data_di_nascita %--% now) /years(1))) %>%
+#     mutate(fascia_progetto = collocate(budget)) %>%
+#     group_by(fascia_progetto) %>%
+#     summarise(eta_media = mean(age)) %>%
+#     arrange(desc(eta_media)) %>%
+#     top_n(10) %>%
+#     ggplot(aes(x = reorder(fascia_progetto, fascia_progetto), y = eta_media)) + 
+#     geom_col(fill="red") + 
+#     labs(title = "Età media per fascia progetto", x = "Fascia Progetto", y = "Età media") + 
+#     theme_bw()
 
 
 
@@ -110,7 +118,12 @@ num_budget = tibble(num_budget)
 
 num_budget %>%
     ggplot(aes(x = num_dip, y = budget)) +
-    geom_point()
+    geom_point(color="blue") +
+    labs(title="Correlazione numeri dipendenti e budget", x = "Numero dipendenti", y = "Budget")+
+    theme_bw()
+
+ggsave("progetto_basi/R/plot5.png")
+
 
 model = lm(data = num_budget, budget ~ num_dip)
 
@@ -120,5 +133,10 @@ num_budget = add_predictions(num_budget, model)
 
 num_budget %>%
     ggplot() +
-    geom_point(aes(x = num_dip, y = budget))  + 
-    geom_line(aes(x = num_dip, y= pred))
+    geom_point(aes(x = num_dip, y = budget), color="blue")  + 
+    geom_line(aes(x = num_dip, y= pred), color="red")+
+    labs(title="Correlazione numeri dipendenti e budget", x = "Numero dipendenti", y = "Budget")+
+    theme_bw()
+
+
+ggsave("progetto_basi/R/plot6.png")

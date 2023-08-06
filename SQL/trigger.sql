@@ -1,3 +1,7 @@
+insert into dipendente values (1234, 'orso', 'bruno', '06-08-2020', 'scalatore di specchi', '02-02-2001', '01-01-2014', '01-01-2015',null, 'arrampicata su superfici liscie', 'boh');
+
+
+
 -- Trigger 1
 
 
