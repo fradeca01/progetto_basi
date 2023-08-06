@@ -1,11 +1,11 @@
-alter table dipendente 
-add constraint check_laurea
-check ((data_laurea is null) = (classe_laurea is null));
+ALTER TABLE Dipendente
+ADD CONSTRAINT check_laurea 
+CHECK ((data_laurea IS NULL) = (classe_laurea IS NULL));
 
-alter table dipendente 
-add constraint check_dottorato
-check ((data_dottorato is null) = (classe_dottorato is null));
+ALTER TABLE Dipendente
+ADD CONSTRAINT check_dottorato 
+CHECK ((data_dottorato IS NULL) = (classe_dottorato IS NULL));
 
-alter table dipendente 
-add constraint check_laurea_dottorato
-check (check_qualifica(classe_laurea, classe_dottorato));
+ALTER TABLE Dipendente
+ADD CONSTRAINT check_laurea_dottorato
+CHECK (check_qualifica(classe_laurea, classe_dottorato));

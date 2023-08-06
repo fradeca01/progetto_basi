@@ -1,31 +1,34 @@
+CREATE OR REPLACE FUNCTION check_progetto()
+RETURNS TRIGGER LANGUAGE plpgsql AS
+$$
+    DECLARE
+        n INTEGER;
+        matr INTEGER;
 
-create trigger check_progetto
-before update or delete on dipendente
-for each row
-execute procedure check_progetto();
+    BEGIN
+        SELECT COUNT(*) INTO n
+        FROM
+            (
+                SELECT progetto, COUNT(*) AS num_dip
+                FROM Coinvolge
+                WHERE Coinvolge.progetto IN (
+                    SELECT progetto
+                    FROM Coinvolge
+                    WHERE Coinvolge.matricola = OLD.matricola
+                )
+                GROUP BY Coinvolge.progetto
+                HAVING COUNT(*) = 1
+            ) AS prog_num;
 
-create or replace function check_progetto()
-returns trigger language plpgsql as $$
-    declare
-        n integer;
-        matr integer;
-    begin
+        IF n >= 1 THEN
+            RAISE NOTICE 'Non è possibile eliminare il dipendente poichè è unico dipendente di alcuni progetti';
+            RETURN NULL;
+        END IF;
 
-        select count(*) into n from (select progetto, count(*) as num_dip 
-        from coinvolge 
-        where coinvolge.progetto in 
-                            (select progetto from coinvolge
-                            where coinvolge.matricola = old.matricola)
-        group by coinvolge.progetto
-        having count(*) = 1) as prog_num;
-
-        if n >= 1 then
-            raise notice 'Non è possibile eliminare il dipendente poichè è unico dipendente di alcuni progetti';
-            return null;
-        end if;
-
-        return old;
-
-    end;
-
+        RETURN OLD;
+    END;
 $$;
+
+CREATE TRIGGER check_progetto 
+BEFORE UPDATE OR DELETE ON Dipendente
+FOR EACH ROW EXECUTE PROCEDURE check_progetto();

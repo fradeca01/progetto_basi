@@ -1,29 +1,29 @@
-create or replace function check_competenza()
-returns trigger language plpgsql as $$
-    declare 
-        matr integer;
-        comp varchar;
-        n integer;
-    begin
-        matr = new.matricola;
-        comp = new.competenza;
+CREATE OR REPLACE FUNCTION check_competenza()
+RETURN TRIGGER LANGUAGE plpgsql AS
+$$
+    DECLARE
+        matr INTEGER;
+        comp VARCHAR(100);
+        n INTEGER;
 
-        select count(*) into n from Possiede
-        where Possiede.matricola = matr and Possiede.competenza = comp;
+    BEGIN
+        matr = NEW.matricola;
+        comp = NEW.competenza;
 
-        if n = 0 then
-            raise notice 'Dipendente non ha tale Competenza';
-            return null;
-        end if;
+        SELECT COUNT(*) INTO n
+        FROM Possiede
+        WHERE Possiede.matricola = matr AND Possiede.competenza = comp;
 
-        raise notice 'OKKK';
+        IF n = 0 THEN 
+            RAISE NOTICE 'Dipendente non ha tale Competenza';
+            RETURN NULL;
+        END IF;
 
-        return new;
-    end;
+        RETURN NEW;
+
+    END;
 $$;
 
-
-create trigger coinvolge before insert or update 
-on coinvolge
-for each row    
-execute procedure check_competenza();
+CREATE TRIGGER check_coinvolge
+BEFORE INSERT OR UPDATE ON Coinvolge 
+FOR EACH ROW EXECUTE PROCEDURE check_competenza();

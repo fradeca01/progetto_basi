@@ -1,24 +1,24 @@
-create or replace function check_dipartimento()
-returns trigger language plpgsql as $$
-    declare 
-        n integer;
-    begin
+CREATE OR REPLACE FUNCTION check_dipartimento()
+RETURNS TRIGGER LANGUAGE plpgsql AS
+$$
+    DECLARE
+        n INTEGER;
 
-        select count(*) into n from dipendente 
-        where dipendente.dipartimento = old.dipartimento;
-        if n <= 1 then
-            raise notice 'Non è possibile eliminare il dipendente';
-            return null;
-        end if;
+    BEGIN
+        SELECT COUNT(*) INTO n
+        FROM Dipendente
+        WHERE Dipendente.dipartimento = OLD .dipartimento;
 
-        return old;
-    end;
+        IF n <= 1 THEN 
+            RAISE NOTICE 'Non è possibile eliminare il dipendente';
+            RETURN NULL;
+        END IF;
+
+        RETURN OLD;
+
+    END;
 $$;
 
-
-
-
-create trigger check_dipartimento 
-before update or delete on dipendente
-for each row    
-execute procedure check_dipartimento();
+CREATE TRIGGER check_dipartimento
+BEFORE UPDATE OR DELETE ON Dipendente
+FOR EACH ROW EXECUTE PROCEDURE check_dipartimento();
