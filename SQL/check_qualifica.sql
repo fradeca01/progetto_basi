@@ -1,12 +1,11 @@
-create or replace function check_qualifica(el1 varchar(100), el2 varchar(100))
-returns boolean language plpgsql as $$
-    begin
-
-    if (el2 is not null) then
-        return (el1 is not null);
-    else 
-        return true;
-    end if;
-
-    end
-$$; 
+CREATE OR REPLACE FUNCTION check_qualifica(el1 VARCHAR(100), el2 VARCHAR(100))
+RETURNS BOOLEAN LANGUAGE plpgsql AS 
+$$ 
+    BEGIN
+        IF (el2 IS NOT NULL) THEN 
+            RETURN (el1 IS NOT NULL);
+        ELSE
+            RETURN TRUE;
+        END IF;
+    END
+$$;

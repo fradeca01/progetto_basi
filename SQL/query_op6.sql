@@ -14,5 +14,5 @@ BEGIN
 		FROM Numero_dipartimenti_riforniti
 		WHERE ndip > n_min_dip;
 
-END
-$$
+END;
+$$;
