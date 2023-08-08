@@ -1,60 +1,74 @@
+CREATE DOMAIN DOM_TELEFONO AS INTEGER
+	CONSTRAINT c_telefono_valido
+	CHECK (VALUE BETWEEN 1000000000 AND 9999999999);
+
+CREATE DOMAIN DOM_NATURALE AS INTEGER
+	CONSTRAINT c_non_negativo
+	CHECK (VALUE >= 0);
+
+CREATE DOMAIN DOM_VALUTA AS DECIMAL(1, 2)
+	CONSTRAINT c_valuta_valida
+	CHECK (VALUE >= 0)
+
 CREATE TABLE Fornitore(
 	nome VARCHAR(100) PRIMARY KEY,
-	indirizzo VARCHAR(100) UNIQUE NOT NULL
+	via VARCHAR(100) NOT NULL,
+	num_civico VARCHAR(5) NOT NULL,
+	codice_postale DOM_NATURALE NOT NULL
 );
 
 CREATE TABLE Progetto(
-	codice_aziendale INT PRIMARY KEY,
-	budget INT NOT NULL,
-	durata_in_mesi INT NULL
+	codice_aziendale DOM_NATURALE PRIMARY KEY,
+	budget DOM_VALUTA NOT NULL,
+	durata_in_mesi DOM_NATURALE
 );
 
 CREATE TABLE Competenza(nome VARCHAR(100) PRIMARY KEY);
 
 CREATE TABLE Dipartimento(
 	nome VARCHAR(100) PRIMARY KEY,
-	recapito INT UNIQUE NOT NULL,
+	recapito DOM_TELEFONO UNIQUE NOT NULL,
 	email VARCHAR(100),
-	numero_afferenti INT,
+	numero_afferenti DOM_NATURALE,
 	ultimo_acquisto VARCHAR(100),
 	data_ultimo_acquisto DATE,
 	FOREIGN KEY (ultimo_acquisto) REFERENCES Fornitore ON UPDATE CASCADE ON DELETE NO ACTION
 );
 
 CREATE TABLE Dipendente(
-	matricola INT PRIMARY KEY,
+	matricola DOM_NATURALE PRIMARY KEY,
 	nome VARCHAR(100) NOT NULL,
 	cognome VARCHAR(100) NOT NULL,
 	data_assunzione DATE NOT NULL,
 	qualifica VARCHAR(100) NOT NULL,
 	data_di_nascita DATE NOT NULL,
-	data_laurea DATE NULL,
-	data_dottorato DATE NULL,
-	classe_laurea VARCHAR(50) NULL,
-	classe_dottorato VARCHAR(50) NULL,
+	data_laurea DATE,
+	data_dottorato DATE,
+	classe_laurea VARCHAR(50),
+	classe_dottorato VARCHAR(50),
 	dipartimento VARCHAR(100) NOT NULL,
 	FOREIGN KEY (dipartimento) REFERENCES Dipartimento ON UPDATE CASCADE ON DELETE NO ACTION
 );
 
 CREATE TABLE Matrimonio(
-	coniuge1 INT PRIMARY KEY,
-	coniuge2 INT UNIQUE NOT NULL,
+	coniuge1 DOM_NATURALE PRIMARY KEY,
+	coniuge2 DOM_NATURALE UNIQUE NOT NULL,
 	FOREIGN KEY (coniuge1) REFERENCES Dipendente ON UPDATE CASCADE ON DELETE CASCADE,
 	FOREIGN KEY (coniuge2) REFERENCES Dipendente ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 CREATE TABLE Possiede(
 	competenza VARCHAR(100),
-	matricola INT,
+	matricola DOM_NATURALE,
 	PRIMARY KEY (competenza, matricola),
 	FOREIGN KEY (competenza) REFERENCES Competenza ON UPDATE CASCADE ON DELETE CASCADE,
 	FOREIGN KEY (matricola) REFERENCES Dipendente ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 CREATE TABLE Coinvolge(
-	matricola INT,
+	matricola DOM_NATURALE,
 	competenza VARCHAR(100),
-	progetto INT,
+	progetto DOM_NATURALE,
 	PRIMARY KEY (matricola, competenza, progetto),
 	FOREIGN KEY (matricola) REFERENCES Dipendente ON UPDATE CASCADE ON DELETE CASCADE,
 	FOREIGN KEY (competenza) REFERENCES Competenza ON UPDATE CASCADE ON DELETE CASCADE,
