@@ -20,20 +20,27 @@ group by dipendente.matricola;"
 dipendenti = tibble(dipendenti)
 
 dipendenti = dipendenti %>% 
-    mutate(classe_laurea = replace(classe_laurea, classe_laurea != "" & classe_dottorato == "", "laureato e non dottorato") ) %>%
-    mutate(classe_laurea = replace(classe_laurea, classe_laurea == "", "non_laureato")) %>%
-    mutate(classe_laurea = replace(classe_laurea, classe_dottorato != "", "dottorato") ) %>%
+    mutate(classe_laurea = replace(classe_laurea, !is.na(classe_laurea) & is.na(classe_dottorato), "laurea_no_dott") ) %>%
+    mutate(classe_laurea = replace(classe_laurea, is.na(classe_laurea), "non_laureato")) %>%
+    mutate(classe_laurea = replace(classe_laurea, !is.na(classe_dottorato), "dottorato") ) %>%
+    mutate(classe_laurea = factor(classe_laurea, levels = c("dottorato", "laurea_no_dott", "non_laureato" ), 
+            labels= c("Dottorato", "Solo laureato", "Non laureato"))) %>%
     group_by(classe_laurea) %>%
     summarise(num_medio_competenze = sum(numero_competenze) / n())
 
 dipendenti %>%
-    ggplot(aes(x = reorder(classe_laurea, desc(classe_laurea)), y = num_medio_competenze, fill = classe_laurea)) + 
+    ggplot(aes(x = fct_rev(classe_laurea), y = num_medio_competenze, fill = classe_laurea)) + 
     geom_col(show.legend = FALSE) + 
     ggtitle("Numero medio competenze per dipendente") +
     labs(x = "Classe Laurea", y = "Numero medio competenze") + 
-    theme_bw()
+    theme_bw() + 
+    theme(axis.text = element_text(size=25),
+         axis.title=element_text(size=28),
+         plot.title=element_text(size=30, face="bold"),
+         axis.title.x = element_text(margin = margin(t = 20, r = 0, b = 0, l = 0)),
+         axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0)))
 
-ggsave("progetto_basi/R/plot1.png")
+ggsave("progetto_basi/R/plot1.pdf", dpi=320, height = 15)
 
 
 #2
@@ -43,11 +50,17 @@ from dipartimento order by numero_afferenti desc limit 13;")
 
 dipartimenti %>%
     ggplot(aes(x = reorder(nome, -numero_afferenti), y = numero_afferenti)) +
-    geom_col(show.legend = FALSE, fill="aquamarine3") + 
-    labs(title = "Numero afferenti per dipartimento", x = "Dipartimento", y = "Numero Afferenti")
+    geom_col(show.legend = FALSE, fill="darkred") + 
+    labs(title = "Numero afferenti per dipartimento", x = "Dipartimento", y = "Numero Afferenti")+
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+    theme(axis.text = element_text(size=25),
+         axis.title=element_text(size=28),
+         plot.title=element_text(size=30, face="bold"),
+         axis.title.x = element_text(margin = margin(t = 20, r = 0, b = 0, l = 0)),
+         axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0)))
 
 
-ggsave("progetto_basi/R/plot2.png")
+ggsave("progetto_basi/R/plot2.pdf", dpi=320, height = 15)
 
 
 #3
@@ -58,13 +71,18 @@ fornitori = tibble(fornitori)
 
 fornitori %>%
     ggplot(aes(x = reorder(fornitore, -num), y = num)) +
-    geom_bar(stat = "identity", fill = "pink") + 
+    geom_bar(stat = "identity", fill = "darkgreen") + 
     labs(title = "Numero dipartimenti per fornitore", x = "Fornitore", y = "Numero Dipartimenti") + 
     theme_bw() + 
-    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+        theme(axis.text = element_text(size=25),
+         axis.title=element_text(size=28),
+         plot.title=element_text(size=30, face="bold"),
+         axis.title.x = element_text(margin = margin(t = 20, r = 0, b = 0, l = 0)),
+         axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0)))
 
 
-ggsave("progetto_basi/R/plot3.png")
+ggsave("progetto_basi/R/plot3.pdf", dpi=320, height = 15)
 
 
 # #4
@@ -117,26 +135,42 @@ from coinvolge inner join progetto on coinvolge.progetto = progetto.codice_azien
 num_budget = tibble(num_budget)
 
 num_budget %>%
+    mutate(num_dip = factor(num_dip)) %>%
     ggplot(aes(x = num_dip, y = budget)) +
-    geom_point(color="blue") +
+    geom_boxplot(color="darkblue") +
     labs(title="Correlazione numeri dipendenti e budget", x = "Numero dipendenti", y = "Budget")+
-    theme_bw()
+    theme_bw() +
+    theme(axis.text = element_text(size=25),
+         axis.title=element_text(size=28),
+         plot.title=element_text(size=30, face="bold"),
+         axis.title.x = element_text(margin = margin(t = 20, r = 0, b = 0, l = 0)),
+         axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0)))
 
-ggsave("progetto_basi/R/plot5.png")
+ggsave("progetto_basi/R/plot5.pdf", dpi=320, height = 15)
 
 
 model = lm(data = num_budget, budget ~ num_dip)
 
-correlation = cor(num_budget$num_dip, num_budget$budget)
+
+summary(model)
 
 num_budget = add_predictions(num_budget, model)
 
 num_budget %>%
+    mutate(num_dip = factor(num_dip)) %>%
     ggplot() +
-    geom_point(aes(x = num_dip, y = budget), color="blue")  + 
-    geom_line(aes(x = num_dip, y= pred), color="red")+
+    geom_boxplot(aes(x = num_dip, y = budget), color="darkblue")  + 
+    #geom_line(aes(x = num_dip, y= pred), color=alpha("red",0.6), size=2)+
+    geom_abline(slope = model$coefficients[2], intercept = model$coefficients[1], color=alpha("darkred",0.6), size=2)+
     labs(title="Correlazione numeri dipendenti e budget", x = "Numero dipendenti", y = "Budget")+
-    theme_bw()
+    theme_bw() +
+    theme(axis.text = element_text(size=25),
+         axis.title=element_text(size=28),
+         plot.title=element_text(size=30, face="bold"),
+         axis.title.x = element_text(margin = margin(t = 20, r = 0, b = 0, l = 0)),
+         axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0)) )
+
+    
 
 
-ggsave("progetto_basi/R/plot6.png")
+ggsave("progetto_basi/R/plot6.pdf",device="pdf", dpi=320, height = 15)

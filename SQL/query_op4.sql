@@ -1,17 +1,17 @@
-CREATE OR REPLACE FUNCTION numeroDipendentiAfferenti(dipartimento VARCHAR(100))
+CREATE OR REPLACE FUNCTION numeroDipendentiAfferenti(dip VARCHAR(100))
 RETURNS INT LANGUAGE plpgsql AS
 $$ 
 DECLARE numDipe INT; 
 
 BEGIN
 
-    IF dipartimento NOT IN (SELECT nome FROM Dipartimento) THEN
-        RAISE NOTICE 'Dipartimento % non presente nel database', dipartimento;
+    IF dip NOT IN (SELECT nome FROM Dipartimento) THEN
+        RAISE NOTICE 'Dipartimento % non presente nel database', dip;
     END IF;
 
     SELECT  numero_afferenti INTO numDipe
     FROM Dipartimento
-    WHERE nome = dipartimento;
+    WHERE nome = dip;
 
     RETURN numDipe; 
 
